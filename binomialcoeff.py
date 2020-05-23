@@ -17,4 +17,5 @@ def binomialcoeff(n,k):
     return C[n][k]
 
 print(binomialcoeff(n,k))
+#print number of times base case is executed - 2*(k+1) [n+1+k+1-(n-k)]
 print(count)
